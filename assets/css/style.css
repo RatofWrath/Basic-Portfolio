@@ -4,19 +4,29 @@
         color: orange;
     }
 
+    body{
+        background: #dddddd;
+    }
+
     header{
         background: #ffffff;
         border-color: #cccccc;
+        position: fixed;
         margin-bottom: 20px;
         width: 100%;
+        left: 0;
+        top: 0;
     }
 
     content{
         background: #ffffff;
         width: 960px;
-        margin: auto;
+        margin: 70 auto;
         padding: 5px;
         display: inline-block;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 25%;
     }
 
     footer{
@@ -39,6 +49,20 @@
 
     p{
         color: #777777;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li, a:visited, a:link{
+        color: #777777;
+        text-align: center;
+        display: inline;
+        padding: 5px;
+        border-right: 1px, solid, #cccccc;
     }
 
     .myNameBox{
@@ -76,6 +100,5 @@
 
     #catPic{
         float: left;
-        padding: 0px, 5px;
     }
 </style>
