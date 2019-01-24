@@ -45,6 +45,7 @@
     h1{
         color: #4aaaa5;
         margin-bottom: 20px;
+        padding: 5px;  
     }
 
     p{
@@ -62,7 +63,22 @@
         text-align: center;
         display: inline;
         padding: 5px;
-        border-right: 1px, solid, #cccccc;
+    }
+    
+    input[type=text]{
+        width: 960px;
+    }
+
+    input[type=submit]{
+        background: #4aaaa5;
+        color:white;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    textArea{
+        width: 960px;
+        height: 200px;
     }
 
     .myNameBox{
