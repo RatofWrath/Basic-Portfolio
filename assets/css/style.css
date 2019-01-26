@@ -107,8 +107,10 @@
     .navigationBar{
         color: #777777;
         float: right;
-        margin-right: 24%;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        margin-right: 24%;
     }
 
     .row{
